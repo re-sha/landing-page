@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.introduction p {
+    margin-bottom: 15px;
+    margin-right: 40px;
+}
+
+.services-tiles {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.info {
+    max-width: 400px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text {
+    margin-top: 3px;
+}
+.more-info {
+    background-color: #bfd9fa;
+    padding-bottom: 70px;
+}
+
+.customer-reviews {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 70px 300px;
+}
+
+.customer-reviews p {
+    margin-bottom: 0;
+}
+
+.cust-name {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.schedule-apt {
+    margin: 90px 200px;
+    padding: 48px;
+    padding-left: 96px;
+    padding-right: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.schedule-apt, button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.header, .introduction, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 40px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin:0;
+}
+
+.hero {
+    margin: 0;
+}
+a, .hero {
+    font-size: 18px;
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+img {
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: solid #3882F6;
+    border-width: 5px;
+}
+
+.happy-smile {
+    height: 300px;
+    width: 1000px;
+    object-fit: cover;
+    border: none;
+    border-radius: 0;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.schedule-apt p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.book-apt2, .book-apt1{
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+.book-apt2 {
+    border: solid white;
+    padding: 12px 50px;
+}
+
+.book-apt1 {
+    padding: 8px 30px;
+    border: solid #3882F6; 
+    
+}
